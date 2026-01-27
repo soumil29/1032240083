@@ -1,0 +1,75 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* center everything */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f5;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* title */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* form card */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    width: 340px; /* slightly wider for more fields */
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* focus effect */
+input[type="text"]:focus {
+    border-color: #4a73ff;
+    outline: none;
+}
+
+/* submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a73ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* hover effect */
+input[type="submit"]:hover {
+    background-color: #365de0;
+}
